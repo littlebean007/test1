@@ -1,6 +1,14 @@
 from math import trunc
 from parsers import parse 
 import random
+import time
+
+print("this is original version 2")
+print(time.strftime("%m/%d/%Y %H:%M:%S"))
+curr_time = time.time()
+print(time.ctime(curr_time))
+#print(time.localtime(time.time()))
+
 
 while True:
 # Ask the user to enter a lower and an upper bound divided by a comma
