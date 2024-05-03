@@ -9,6 +9,8 @@ curr_time = time.time()
 print(time.ctime(curr_time))
 #print(time.localtime(time.time()))
 
+print("Welcome to the number guessing game!")
+
 
 while True:
 # Ask the user to enter a lower and an upper bound divided by a comma
